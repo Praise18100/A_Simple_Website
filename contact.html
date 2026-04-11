@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Violent</a>
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="services.html">Services</a>
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container py-5">
+      <h1 class="text-center mb-4">Contact Us</h1>
+      <form id="contactForm">
+        <div class="mb-3">
+          <label>Name</label>
+          <input type="text" id="name" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label>Email</label>
+          <input type="email" id="email" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label>Message</label>
+          <textarea id="message" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+
+      <div class="mt-4">
+        <p><strong>Address:</strong> Lagos, Nigeria</p>
+        <p><strong>Phone:</strong> +234 836 764 2795</p>
+      </div>
+    </section>
+
+    <footer class="text-white text-center py-3">
+      <p>&copy; 2026 Violent Solutions</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
