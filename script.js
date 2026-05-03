@@ -7,4 +7,4 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     e.preventDefault();
     alert("Please fill in all fields.");
   }
-});
+});                                             
